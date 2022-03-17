@@ -1,0 +1,487 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding:0;
+
+}
+.menu{
+   height:150px;
+   background: linear-gradient(70deg, white,#B4E4F3);
+}
+
+.loger a{
+    color: #1A3DAD ;
+    padding:25px;
+    left: 60px;
+    font-weight: bold;
+    font-size: 40px;
+} 
+
+.menutext{
+    padding:25px;
+    font-weight: bold;
+}
+.menutext a{
+    font-size:25px;
+    color: #798588;
+  
+}
+.boton{
+  color: white;
+  font-size: 20px;
+}
+.triangulo{
+    width: 0;
+    height:0;
+    border-top: 100px solid rgba(243, 241, 241, 0.555);
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    position: relative;
+    top: 2px;
+
+}
+.texto{
+    color:#043868;
+    font-size: 50px;
+}
+.parrafo{
+    color: #798588;
+    font-size: 20px;
+}
+
+.img img{
+    position: relative;
+    top: -210px; /* ajustar los valores para mover la imagen */
+    width: 720px;
+    height: 1000px;
+    margin: 30%;
+    border:2px solid #fff;
+    display: block;
+    background-color: #3296E9;
+    right: 228px; 
+}
+
+.iconos i{
+    display:inline-block;
+    vertical-align:top;
+
+}
+.protection{
+    color: #798588;
+}
+.time{
+    font-size: 20px;
+    color:#012663;
+}
+.banner{
+    background-color: rgba(255, 255, 255, 0.9);
+    float: none;
+    height: 100px;
+    display: flex;
+    margin: 0 20px;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 2px 8px rgba(68, 106, 233, 0.3);
+    border-radius: 1rem;
+    margin-top: 5rem;
+    width: 800px;
+    position: absolute;
+    z-index:3 ;
+   
+    
+    
+}
+.location {
+    color: #1259D6;
+    position: absolute;
+    left: 30px;
+    padding: 10px;
+  
+  
+}
+.location a {
+    color:#798588;
+    
+  
+  
+}
+.vaccineType {
+    color: #1259D6; 
+    position: absolute;
+    left: 450px;
+    padding: 10px;
+}
+.vaccineType a {
+    color:#798588
+}
+.date{
+    color: #1259D6;
+    position: absolute;
+    left:250px;
+    padding: 10px;
+    
+    
+}
+.button{
+    padding: 10px;
+    color: #1A3DAD; 
+    position:absolute;
+    left: 660px;
+}
+.moderna a{
+    color: #043868;
+    position: absolute;
+    left: 30px;
+    font-size: 20px;
+}
+.dates a{
+    color: #043868;
+    font-size: 20px;
+    position: relative;
+    left: 27px;
+    
+}
+.jakarta a{
+    color: #043868;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+.button a{
+    background-color: #043868;
+}
+.date a{
+    color: #798588;
+
+}
+.logos{
+    position: absolute;
+    top: 1200px;
+}
+.should{
+    position: absolute;
+    top: 1500px;
+}
+.should a{
+    color: #043868;
+    font-size: 40px;
+    
+}
+.order{
+    position: absolute;
+    top: 1600px;
+}
+.order a{
+    color: #798588;
+    font-size: 15px;
+}
+
+
+.titles a{
+    color: #043868;
+    font-size: 20px;
+}
+.card{
+    border-radius: 10px ;
+    box-shadow: 0px 1px 10px rgb(0, 0,255,0.2);
+    cursor: default;
+    transition: all 400 ms ease;
+}
+.bodys a{
+    font-size:12px;
+    color: #798588;
+}
+.covid{
+    color: #1259D6;
+    padding: 20px;
+}
+.triangulo2 {
+    width: 0; 
+    height: 0; 
+    border-left: 90px solid rgba(243, 241, 241, 0.555);;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    top: 2100px;
+    right:1348px;
+}
+.imgcubrebocas{
+    position: relative;
+    top: 700px;
+    right: 13px;
+}
+.cards{
+        border-radius: 10px ;
+        box-shadow: 0px 1px 50px rgb(0, 0,255,0.2);
+        cursor: default;
+        transition: all 400 ms ease;
+        position: relative;
+        right:50px;
+        width: 300px;
+}
+
+.flexbox{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.flexbox a{
+   color: #043868;
+   font-size: 15px;
+   top: 40px;
+}
+.alcoholic{
+    position: relative;
+    top: 30px;
+    color:#1A3DAD;
+    left: 15px;
+}
+.favorite{
+    position: relative;
+    top: -20px;
+    color: #1A3DAD;
+    left: 270px;
+}
+.flexbox1{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+.bodys1{
+    color: #798588;
+}
+.bodys1 a{
+    color: #798588;
+    font-size: 10px;
+    position: relative;
+    left: 50px;
+    top: -1px;
+}
+
+.bodyemergency{
+    position: relative;
+    top:350px;
+}
+.bodyemergency a{
+    color: #798588;
+    font-size: 15px;
+}
+.card1{
+    border-radius: 10px ;
+    box-shadow: 0px 1px 10px rgb(0, 0,255,0.2);
+    cursor: default;
+    transition: all 400 ms ease;
+    position: relative;
+    top: 450px;
+}
+
+
+.flexbox2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.flexbutton{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+.cardmenus{
+        border-radius: 10px ;
+        box-shadow: 0px 1px 10px rgb(0, 0,255,0.2);
+        cursor: default;
+        transition: all 400 ms ease;
+        position: relative;
+        max-width: 250px;
+        max-height: 500px;
+        top:350px;
+}
+.container3{
+    position: relative;
+    right: -3px;
+}
+
+.flexbox3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.flexbox3 a{
+    color: #043868;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+ }
+ .bodys3 {
+    position: relative;
+    top: -60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ .bodys3 a{
+     color: #798588;
+ }
+
+.buttons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+
+ }
+
+ .card3{
+    border-radius: 10px ;
+    box-shadow: 0px 1px 10px rgb(0, 0,255,0.2);
+    cursor: default;
+    transition: all 400 ms ease;
+}
+.telmenutel{
+    position: relative;
+    top:400px;
+}
+.medico{
+    position: relative;
+    top: 280px;
+}
+.contenedor{
+    position: absolute;
+    top: 1700px;
+}
+.dibujo{
+    position: relative;
+    top:650px
+}
+
+.preparations a{
+    color: #043868;
+    font-size: 30px;
+
+}
+.success a{
+ color: #798588;
+ font-size: 15px;
+}
+.bloques{
+    position: absolute;
+    top: 200px;
+}
+.call{
+    position: absolute;
+    top: 3200px;
+}
+.contactos{
+    position: relative;
+    top: 800px;
+    left: -600px;
+}
+.emergencia a {
+    color: #043868;
+    font-size: 40px;
+
+}
+
+
+.contacto{
+    position: relative;
+    top: 1500px;
+    right: 600px;
+}
+.flexbox2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.flexbox2 a{
+    color: #043868;
+    font-size: 15px;
+    top: 40px;
+}
+.contenido{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.botons{
+    position: relative;
+    
+}
+.titulos{
+    position: relative;
+    top: -70px;
+    left: 40px;
+}
+
+.titulos a{
+    color: #043868;
+}
+.botones{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+
+}
+.botones a {
+    font-size: 10px;
+
+}
+.cuerpo a{
+    color: #798588;
+}
+.tel{
+    position: absolute;
+    top: 70px;
+    left: 60px;
+}
+.tel a{
+  font-size: 10px;
+  color: #798588;
+}
+.phone{
+    position: relative;
+    color: #1259D6;
+    padding: 20px;
+    top: 5px;
+}
+
+.titulos1{
+    position: relative;
+    top: -70px;
+    left: 60px;
+}
+.titulos1 a{
+    color: #043868;
+    font-size: 20px;
+}
+.doctor{
+    position: absolute;
+    right: -293px;
+    top: 750px;
+}
+.page-footer{
+    position: relative;
+    top: 1700px;
+    right: 800px;
+    width: 1500px;
+    background-color: #D9E5FC;
+}
+h5{
+    color: #1259D6;
+}
+.grey-text p{
+    color: #798588;
+}
+.whitetext{
+    color: #043868;
+}
